@@ -1,34 +1,40 @@
 import React from "react";
-import Entry from "./Entry";
+import Results from "./Results";
 
 const post1 = {
   title: "Adagio Jasmine",
   body: "It is a v good tea",
   date: "2019",
   scores: {
-    brewingEase: 5,
+    brewingEase: 4,
     flavor: 4,
     cost: 5,
   },
 };
 
-const weights = {
-  brewingEase: 0,
-  flavor: 9,
-  cost: 9,
+const post2 = {
+  title: "Entry2",
+  body: "It is a v good tea",
+  date: "2019",
+  scores: {
+    brewingEase: 5,
+    flavor: 4,
+    cost: 4,
+  },
 };
 
-const calculateScore = (weights, inputs) => {
-  let value =
-    (weights.brewingEase * inputs.brewingEase +
-      weights.flavor * inputs.flavor +
-      weights.cost * inputs.cost) /
-    (weights.brewingEase + weights.flavor + weights.cost);
-
-  value = (Math.round(value * 100) / 100).toFixed(2);
-
-  return value;
+const post3 = {
+  title: "Entry3",
+  body: "It is a v good tea",
+  date: "2019",
+  scores: {
+    brewingEase: 2,
+    flavor: 4,
+    cost: 5,
+  },
 };
+
+var posts = [post1, post2, post3];
 
 function Home() {
   return (
@@ -39,13 +45,7 @@ function Home() {
         <br />
         Now you can go to <code>src/pages/Home.jsx</code> and start adding
         useful stuff.
-        <Entry
-          title={post1.title}
-          body={post1.body}
-          score={calculateScore(weights, post1.scores)}
-        />
-        <Entry title={post1.title} body={post1.body} score={3.5} />
-        <Entry title={post1.title} body={post1.body} score={3.6} />
+        <Results posts={posts} />
       </div>
     </div>
   );
