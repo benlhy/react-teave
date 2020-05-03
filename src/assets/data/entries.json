@@ -1,0 +1,121 @@
+[
+  {
+    "title": "Jasmine Yin Hao, Adagio Teas",
+    "body": "A solid jasmine tea from Adagio.",
+    "date": "2018",
+    "scores": {
+      "brewingEase": 3,
+      "flavor": 4,
+      "cost": 5
+    }
+  },
+
+  {
+    "title": "Dragon Pearl Jasmine Tea, Harney and Sons",
+    "body": "This is truly a remarkable jasmine tea from Harney and Sons.",
+    "date": "2018",
+    "scores": {
+      "brewingEase": 5,
+      "flavor": 4,
+      "cost": 3
+    }
+  },
+
+  {
+    "title": "Golden Buds Jasmine Tea, Teavivre",
+    "body": "Mellow, round, and fragrant, but expensive for a jasmine tea.",
+    "date": "2019",
+    "scores": {
+      "brewingEase": 2,
+      "flavor": 5,
+      "cost": 2
+    }
+  },
+
+  {
+    "title": "Japanese Sencha, Harney and Sons",
+    "body": "A full-mouthed, flavourful tea.",
+    "date": "2018",
+    "scores": {
+      "brewingEase": 3,
+      "flavor": 4,
+      "cost": 4
+    }
+  },
+  {
+    "title": "Lu Shan Yun Wu Green Tea, Teavivre",
+    "body": "A fresh, dry tea. Perfect for finishing after a oily or greasy meal.",
+    "date": "2019",
+    "scores": {
+      "brewingEase": 4,
+      "flavor": 4,
+      "cost": 2
+    }
+  },
+  {
+    "title": "Hot Cinnamon Spice Tea, Harney and Sons",
+    "body": "A great tea to drink, and a fun surprise for those who have never tasted it before.",
+    "date": "2019",
+    "scores": {
+      "brewingEase": 4,
+      "flavor": 4,
+      "cost": 5
+    }
+  },
+  {
+    "title": "Paris Tea, Harney and Sons",
+    "body": "A wonderful blend that does not disappoint.",
+    "long-body": "This is a rich black tea and oolong mix from Harney and Sons. It smells like fruit punch without the coying sweetness, and with a touch of caramel that gives it a pleasant smoothness. A hint of vanilla lingers just on the edge to reinforce the caramel. This is one of the rare teas that tastes like it smells.",
+    "date": "2017",
+    "html-link": "https://www.harney.com/products/paris-tea",
+    "manufacturer": "Harney and Sons",
+    "package": "$8.50 (4 oz.)",
+    "scores": {
+      "brewingEase": 4,
+      "flavor": 5,
+      "cost": 4
+    }
+  },
+  {
+    "title": "Earl Grey Bravo, Adagio Teas",
+    "body": "A bright blend excellent for turning those gloomy days into bright ones. Good if you had a bad experience with earl greys.",
+    "long-body": "I don't personally like Earl Grey teas, but this tea won me over. A nice and bright tea that reminds me of a early spring morning. The taste is fresh, and doesn't taste like soap, which was what that turned me off earl grey teas in the first place.",
+    "date": "2017",
+    "html-link": "https://www.adagio.com/black/earl_grey_bravo.html",
+    "manufacturer": "Adagio Teas",
+    "package": "$7.00 (3 oz.)",
+    "scores": {
+      "brewingEase": 3,
+      "flavor": 4,
+      "cost": 5
+    }
+  },
+  {
+    "title": "Superfine Ali Shan Oolong Tea, Teavivre",
+    "body": "An epitome of oolong teas.",
+    "long-body": "To be really honest, this is what you should be spending your money on at Teavivre. As opposed to their other teas, their oolongs are priced comparitively with other sellers, and this is where the origin of the tea actually matters. The Ali shan oolong tea does what it says on the label: it goes out and wins a medal, and it is really, really smooth and thick, almost like honey compared to other green leaves. It is very clearly an oolong tea, there's no doubt about that. I think for its price, it is quite a good introduction to oolong teas. It doesn't require precise temperature control, and is rather forgiving if you steep it a little long.",
+    "date": "2019",
+    "html-link": "https://www.teavivre.com/superfine-taiwan-alishan-oolong-tea.html",
+    "manufacturer": "Teavivre",
+    "package": "$23.90 (3.5 oz)",
+    "scores": {
+      "brewingEase": 4,
+      "flavor": 4,
+      "cost": 5
+    }
+  },
+  {
+    "title": "Green Tea with Jasmine, Taylors of Harrogate",
+    "body": "A convenient, cheap, and good option for jasmine tea. ",
+    "long-body": "I remember drinking this tea on a early Saturday morning. The day was just starting and the morning light was just filtering in through the windows. Jasmine notes are muted, but this is balanced by a faint honey sweetness in the tea which I found delightful. The tea itself is a little thin. I feel that if this tea could be obtained in loose leaf form, it will be higher up on the list.",
+    "date": "2018",
+    "html-link": "Avaliable on Amazon",
+    "manufacturer": "Taylors of Harrogatee",
+    "package": "$6.32 (50 teabags)",
+    "scores": {
+      "brewingEase": 3,
+      "flavor": 3,
+      "cost": 5
+    }
+  }
+]

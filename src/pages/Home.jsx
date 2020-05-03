@@ -1,40 +1,7 @@
 import React from "react";
 import Results from "./Results";
 
-const post1 = {
-  title: "Adagio Jasmine",
-  body: "It is a v good tea",
-  date: "2019",
-  scores: {
-    brewingEase: 4,
-    flavor: 4,
-    cost: 5,
-  },
-};
-
-const post2 = {
-  title: "Entry2",
-  body: "It is a v good tea",
-  date: "2019",
-  scores: {
-    brewingEase: 5,
-    flavor: 4,
-    cost: 4,
-  },
-};
-
-const post3 = {
-  title: "Entry3",
-  body: "It is a v good tea",
-  date: "2019",
-  scores: {
-    brewingEase: 2,
-    flavor: 4,
-    cost: 5,
-  },
-};
-
-var posts = [post1, post2, post3];
+import posts from "../assets/data/entries.json";
 
 function Home() {
   return (

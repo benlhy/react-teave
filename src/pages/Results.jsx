@@ -34,7 +34,7 @@ const Results = ({ posts }) => {
         calculateScore({ brewingEase, flavor, cost }, a.scores)
     );
     setData(dataArray);
-  }, [brewingEase, flavor, cost]);
+  }, [brewingEase, flavor, cost]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div>
