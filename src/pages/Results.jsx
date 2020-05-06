@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Entry from "./Entry";
+import { Col, Row, Input, Space } from "antd";
 
 const calculateScore = (weights, inputs) => {
   let value =
@@ -38,29 +39,49 @@ const Results = ({ posts }) => {
 
   return (
     <div>
-      <input
-        id="brewingEase"
-        value={brewingEase}
-        placeholder="brewingEase"
-        onChange={(event) => setBrewingEase(safeParseInt(event.target.value))}
-      />
-      <input
-        id="flavor"
-        value={flavor}
-        placeholder="flavor"
-        onChange={(event) => setFlavor(safeParseInt(event.target.value))}
-      />
-      <input
-        id="cost"
-        value={cost}
-        placeholder="cost"
-        onChange={(event) => setCost(safeParseInt(event.target.value))}
-      />
+      <Row type="flex" justify="center" align="middle">
+        <Col style={{ textAlign: "center", marginBottom: "50px" }}>
+          <Space align="center" size="large">
+            <Input
+              size="large"
+              addonBefore="Brewing Ease"
+              suffix={`/ ${brewingEase + flavor + cost}`}
+              id="brewingEase"
+              value={brewingEase}
+              placeholder="brewingEase"
+              onChange={(event) =>
+                setBrewingEase(safeParseInt(event.target.value))
+              }
+            />
+
+            <Input
+              size="large"
+              addonBefore="Flavor"
+              suffix={`/ ${brewingEase + flavor + cost}`}
+              id="flavor"
+              value={flavor}
+              placeholder="flavor"
+              onChange={(event) => setFlavor(safeParseInt(event.target.value))}
+            />
+
+            <Input
+              size="large"
+              addonBefore="Cost"
+              suffix={`/ ${brewingEase + flavor + cost}`}
+              id="cost"
+              value={cost}
+              placeholder="cost"
+              onChange={(event) => setCost(safeParseInt(event.target.value))}
+            />
+          </Space>
+        </Col>
+      </Row>
 
       {data.map((post) => (
         <Entry
           title={post.title}
           body={post.body}
+          long_body={post.long_body}
           link={post.link}
           score={calculateScore({ brewingEase, flavor, cost }, post.scores)}
         />
