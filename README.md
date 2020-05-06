@@ -1,12 +1,8 @@
-# React Starter
+# React-Teave
 
-This is a starter React project with required libraries and config to quickly get started on a (DECADA) web app.
+This is a app meant to rank the teas that I drink, with user weighted categories to provide a more useful ranking than my own subjective experience.
 
-## Usage
-
-1. Fork this repo to your project organization, changing the name to {PROJECT}-web-frontend.
-2. Build as per normal, modify/add your own code to build your dashboard. Remember to update this README file.
-3. For deployment, follow [this guide](https://siotteam.atlassian.net/wiki/spaces/SCC/pages/295829619/Jenkins+General+Setup). The required Docker and Jenkins config files are already included in this repo; you just need to fill in your project info in `Jenkinsfile`. **Note**: remember to add in `"homepage": "/apps/path/here"` to package.json so the app can work at the deployed url.
+This app was built using a modified create-react-app base.
 
 ## Getting started (once forked)
 
@@ -25,8 +21,6 @@ You will need: [node](https://nodejs.org/en/) and [yarn](https://classic.yarnpkg
 **Libraries**
 
 - [Ant Design](https://ant.design/) - a comprehensive React UI library
-- [decada-web-frontend](https://apps.siotgov.tech/docs/decada-web-frontend/) library - convenience methods for retrieving data from DECADA easily
-- [decada-common-widgets](https://apps.siotgov.tech/docs/decada-common-widgets-storybook/) - a suite of DECADA-friendly UI components to easily visualize data obtained from DECADA
 
 **Dev tools**
 
@@ -38,11 +32,6 @@ You will need: [node](https://nodejs.org/en/) and [yarn](https://classic.yarnpkg
 
 - Allow absolute imports from `src` (set in `jsconfig.json`)
   - Write imports as `import Button from "components/Button"` instead of ugly stuff like `import Button from "./../../components/Button"` (this still works too)
-- Deployment config files for Docker, Jenkins & Nginx
-
-## Contribute
-
-Got any questions, comments, or recommendations for useful tools/tips that aren't included here yet? **Come talk to the UI team!** We'd love to discuss and learn from you too :)
 
 ## Learn More
 
