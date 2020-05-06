@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-teave/static/css/main.4346d8ca.chunk.css",
+    "main.js": "/react-teave/static/js/main.f9961f47.chunk.js",
+    "main.js.map": "/react-teave/static/js/main.f9961f47.chunk.js.map",
+    "runtime-main.js": "/react-teave/static/js/runtime-main.0867e89b.js",
+    "runtime-main.js.map": "/react-teave/static/js/runtime-main.0867e89b.js.map",
+    "static/css/2.a72c35d3.chunk.css": "/react-teave/static/css/2.a72c35d3.chunk.css",
+    "static/js/2.12449639.chunk.js": "/react-teave/static/js/2.12449639.chunk.js",
+    "static/js/2.12449639.chunk.js.map": "/react-teave/static/js/2.12449639.chunk.js.map",
+    "index.html": "/react-teave/index.html",
+    "precache-manifest.620d36528ecde258722ccd572827eba9.js": "/react-teave/precache-manifest.620d36528ecde258722ccd572827eba9.js",
+    "service-worker.js": "/react-teave/service-worker.js",
+    "static/css/2.a72c35d3.chunk.css.map": "/react-teave/static/css/2.a72c35d3.chunk.css.map",
+    "static/css/main.4346d8ca.chunk.css.map": "/react-teave/static/css/main.4346d8ca.chunk.css.map",
+    "static/js/2.12449639.chunk.js.LICENSE.txt": "/react-teave/static/js/2.12449639.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0867e89b.js",
+    "static/css/2.a72c35d3.chunk.css",
+    "static/js/2.12449639.chunk.js",
+    "static/css/main.4346d8ca.chunk.css",
+    "static/js/main.f9961f47.chunk.js"
+  ]
+}
