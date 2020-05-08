@@ -4,6 +4,8 @@ This is a app meant to rank the teas that I drink, with user weighted categories
 
 This app was built using a modified create-react-app base.
 
+This was built to explore and learn React.
+
 ## Getting started (once forked)
 
 You will need: [node](https://nodejs.org/en/) and [yarn](https://classic.yarnpkg.com/en/docs/install)
