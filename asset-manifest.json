@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-teave/static/css/main.4346d8ca.chunk.css",
-    "main.js": "/react-teave/static/js/main.f9961f47.chunk.js",
-    "main.js.map": "/react-teave/static/js/main.f9961f47.chunk.js.map",
+    "main.js": "/react-teave/static/js/main.dfd38d55.chunk.js",
+    "main.js.map": "/react-teave/static/js/main.dfd38d55.chunk.js.map",
     "runtime-main.js": "/react-teave/static/js/runtime-main.0867e89b.js",
     "runtime-main.js.map": "/react-teave/static/js/runtime-main.0867e89b.js.map",
     "static/css/2.a72c35d3.chunk.css": "/react-teave/static/css/2.a72c35d3.chunk.css",
     "static/js/2.12449639.chunk.js": "/react-teave/static/js/2.12449639.chunk.js",
     "static/js/2.12449639.chunk.js.map": "/react-teave/static/js/2.12449639.chunk.js.map",
     "index.html": "/react-teave/index.html",
-    "precache-manifest.d2fa5ff066a7b2216f1c258e6ac7fe61.js": "/react-teave/precache-manifest.d2fa5ff066a7b2216f1c258e6ac7fe61.js",
+    "precache-manifest.6ea16d22db912d07d319a83b955e4a83.js": "/react-teave/precache-manifest.6ea16d22db912d07d319a83b955e4a83.js",
     "service-worker.js": "/react-teave/service-worker.js",
     "static/css/2.a72c35d3.chunk.css.map": "/react-teave/static/css/2.a72c35d3.chunk.css.map",
     "static/css/main.4346d8ca.chunk.css.map": "/react-teave/static/css/main.4346d8ca.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.a72c35d3.chunk.css",
     "static/js/2.12449639.chunk.js",
     "static/css/main.4346d8ca.chunk.css",
-    "static/js/main.f9961f47.chunk.js"
+    "static/js/main.dfd38d55.chunk.js"
   ]
 }

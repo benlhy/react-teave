@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e8145e53c2cd338d861b5528847d1a20",
+    "revision": "43c4cf69cefc749944666207454cc137",
     "url": "/react-teave/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-teave/static/css/2.a72c35d3.chunk.css"
   },
   {
-    "revision": "83ecaaa138252439b93f",
+    "revision": "1b177c0a84ca4370fe7b",
     "url": "/react-teave/static/css/main.4346d8ca.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-teave/static/js/2.12449639.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "83ecaaa138252439b93f",
-    "url": "/react-teave/static/js/main.f9961f47.chunk.js"
+    "revision": "1b177c0a84ca4370fe7b",
+    "url": "/react-teave/static/js/main.dfd38d55.chunk.js"
   },
   {
     "revision": "ff2a4e02b5076038d958",

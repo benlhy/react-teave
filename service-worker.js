@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-teave/precache-manifest.d2fa5ff066a7b2216f1c258e6ac7fe61.js"
+  "/react-teave/precache-manifest.6ea16d22db912d07d319a83b955e4a83.js"
 );
 
 self.addEventListener('message', (event) => {
