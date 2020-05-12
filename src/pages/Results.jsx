@@ -84,6 +84,9 @@ const Results = ({ posts }) => {
           long_body={post.long_body}
           link={post.link}
           score={calculateScore({ brewingEase, flavor, cost }, post.scores)}
+          img_link={post.img_link}
+          package_weight={post.package_weight}
+          html_link={post.html_link}
         />
       ))}
     </div>
