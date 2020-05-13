@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "43c4cf69cefc749944666207454cc137",
+    "revision": "67231f0a92ccd6056b47fc903eaad929",
     "url": "/react-teave/index.html"
   },
   {
-    "revision": "2ff84e8183ff72378c8d",
+    "revision": "c495a0adb51c1dae0e88",
     "url": "/react-teave/static/css/2.a72c35d3.chunk.css"
   },
   {
-    "revision": "1b177c0a84ca4370fe7b",
+    "revision": "926273887e18ecaadfc2",
     "url": "/react-teave/static/css/main.4346d8ca.chunk.css"
   },
   {
-    "revision": "2ff84e8183ff72378c8d",
-    "url": "/react-teave/static/js/2.12449639.chunk.js"
+    "revision": "c495a0adb51c1dae0e88",
+    "url": "/react-teave/static/js/2.b2a05854.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/react-teave/static/js/2.12449639.chunk.js.LICENSE.txt"
+    "url": "/react-teave/static/js/2.b2a05854.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1b177c0a84ca4370fe7b",
-    "url": "/react-teave/static/js/main.dfd38d55.chunk.js"
+    "revision": "926273887e18ecaadfc2",
+    "url": "/react-teave/static/js/main.f646a597.chunk.js"
   },
   {
     "revision": "ff2a4e02b5076038d958",
