@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Entry from "./Entry";
-import { Col, Row, Input, Space } from "antd";
+import { Col, Row, Input, Space, Divider } from "antd";
 
 const calculateScore = (weights, inputs) => {
   let value =
@@ -40,7 +40,9 @@ const Results = ({ posts }) => {
   return (
     <div>
       <Row type="flex" justify="center" align="middle">
-        <Col style={{ textAlign: "center", marginBottom: "50px" }}>
+        <Col span={16} style={{ textAlign: "center", marginBottom: "50px" }}>
+          <h1>Weights</h1>
+          <br />
           <Space align="center" size="large">
             <Input
               size="large"
@@ -75,6 +77,7 @@ const Results = ({ posts }) => {
             />
           </Space>
         </Col>
+        <Divider />
       </Row>
 
       {data.map((post) => (

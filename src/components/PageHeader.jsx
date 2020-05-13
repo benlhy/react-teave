@@ -8,7 +8,7 @@ function PageHeader(props) {
         {props.image && <img className="h-12 ml-5" src={props.image} alt="" />}
         <div className="text-lg ml-5 ">{props.title}</div>
       </div>
-      <div className="w-screen h-16" />
+      <div className="w-screen h-8" />
     </div>
   );
 }

@@ -8,10 +8,10 @@ import posts from "../assets/data/entries.json";
 function Home() {
   return (
     <div>
-      <div className="text-center text-lg p-10">
+      <div className="text-center text-lg p-2">
         {/* eslint-disable jsx-a11y/accessible-emoji */}
         <Row gutter={16}>
-          <Col span={8} offset={4}>
+          <Col span={16} offset={4}>
             <p className="text-left">
               <b>React-Teave</b> is a tea ranker, based on my perception of how
               good a tea is in various categories, and how much you value each
@@ -28,7 +28,7 @@ function Home() {
               This is a completely subjective experience.
             </p>
           </Col>
-
+          {/*
           <Col span={8}>
             <Row justify="center">
               <span>
@@ -82,6 +82,7 @@ function Home() {
               <Col offset={2}>Exceptional</Col>
             </Row>
           </Col>
+          */}
         </Row>
 
         <br />

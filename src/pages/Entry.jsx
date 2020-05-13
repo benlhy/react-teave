@@ -50,8 +50,9 @@ const Entry = ({
                 <Divider />
                 <Row>
                   <Col span={6}>
-                    <div className="h-32 w-32 rounded">
+                    <div className="  ">
                       <img
+                        className="h-32 w-full rounded object-scale-down"
                         src={process.env.PUBLIC_URL + "/img/" + img_link}
                         alt="tea"
                       />
